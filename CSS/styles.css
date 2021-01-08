@@ -1,0 +1,216 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.banner {
+  background-color: #1b1b2f;
+  padding-bottom: 0;
+  margin: 0;
+  position:fixed;
+  width:100%;
+  height: 42px;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s;
+  overflow-y: hidden;
+}
+.banner a{
+  float:left;
+  display: block;
+  text-decoration: none;
+  right: 100px
+}
+.banner a:hover{
+  background:#e88a1a;
+  color: #d9d9d9;
+}
+
+.linkedin {
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+}
+
+.github {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+}
+
+.youtube {
+  display: inline-block;
+  position: absolute;
+  right: 150px;
+}
+
+a.linkedin:hover {
+  color: #cf3030;
+}
+.top-container {
+  background-color: #1b1b2f;
+  padding-top: 150px;
+  padding-bottom: 0;
+  margin: 0;
+  height: 800px;
+}
+
+.second-container {
+  background-color: #141414;
+  padding-top: 20px;
+  border-top: 0;
+}
+.footer{
+  background-color: #1b1b2f;
+  padding-bottom: 0;
+  margin: 0;
+}
+h1 {
+  color: #d9d9d9;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 10px;
+
+}
+#name{
+  font-size: 3em;
+  color: #d9d9d9;
+}
+h2 {
+  color: #cf3030;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 10px;
+}
+h3{
+  color: #d9d9d9;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+h4{
+  color: #cf3030;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 10px;
+}
+.skills {
+  color: #cf3030;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 10px;
+  margin-left: 220px;
+  text-align: left;
+  border-top: 30px;
+}
+
+p {
+  color: #d9d9d9;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #141414;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 100px;
+  top: 520px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 400px;
+  top: 600px;
+}
+
+.cloud3 {
+  position: absolute;
+  right: 100px;
+  top: 320px;
+}
+
+.mountain2 {
+  display: block;
+  top: 496px;
+  padding-top: 60px;
+  margin-top: 320px;
+}
+
+.pp4 {
+  top: 20px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+a:link {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d9d9d9;
+}
+
+a:hover {
+  color: #cf3030;
+}
+
+a:active {
+  color: #cf3030;
+}
+
+.aboutme {
+  color: #d9d9d9;
+  font-family: "Lucida Console", "Monaco", "Monospace";
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+a.aboutme:hover {
+  color: #d9d9d9;
+}
+
+.biography {
+  color: #cf3030;
+}
+
+.hr3d {
+  display: block;
+  top: 1600px;
+  padding-top: 50px;
+  padding-top: 500px;
+}
+
+.coding {
+  display: block;
+  position: relative;
+  right: 400px;
+}
+
+.karate {
+  display: block;
+  right: 400px;
+  position: relative;
+  padding-top: 0;
+}
+.hobby2{
+  display: block;
+
+  margin-left:550px;
+}
+.mixerpic{
+  display: block;
+  margin-left: 560px;
+}
+.cv{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
